@@ -1,0 +1,22 @@
+<svelte:head>
+      <link rel="stylesheet" href="/css/global.css" />
+    </svelte:head>
+<h1>Andy's Website</h1>
+
+<p> Third year computer science student from San Jose State University. See my resume <a href="resume.pdf"> here. </a> Below are my current interests emerging from coursework
+and work experience: 
+</p>
+
+<ul>
+<li> Digital Signal Processing</li>
+<li> Computational Biology</li>
+<li> Controls and Robotics </li>
+<li> Large or Tiny Neural Networks </li>
+</ul>
+<p> Things I am learning/trying to learn:</p>
+<ul>
+<li> Electronics </li>
+<li> Mechanical Design</li>
+<li> Materials Chemistry </li>
+</ul>
+
