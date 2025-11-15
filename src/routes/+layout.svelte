@@ -1,5 +1,7 @@
 <script lang="ts">
     import favicon from '$lib/assets/favicon.svg';
+    import '../css/global.css';
+    import { base } from '$app/paths';
 
     let { children } = $props();
 </script>
@@ -10,32 +12,12 @@
 
 <header>
     <nav>
-        <a href="/">Home</a>
-        <a href="/experience">Experience</a>
+        <a href="{base}/">Home</a>
+        <a href="{base}/experience">Experience</a>
+        <a href="{base}/projects">Projects</a>
         </nav>
 </header>
 
 <main>
     {@render children?.()}
 </main>
-
-<style>
-    header {
-        padding: 1rem 2rem;
-        border-bottom: 1px solid #ddd;
-        background-color: #f9f9f9;
-    }
-    nav {
-        display: flex;
-        gap: 1rem;
-        font-family: sans-serif;
-    }
-    nav a {
-        text-decoration: none;
-        color: #333;
-        font-weight: bold;
-    }
-    main {
-        padding: 1rem 2rem;
-    }
-</style>

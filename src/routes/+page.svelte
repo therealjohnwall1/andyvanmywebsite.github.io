@@ -1,5 +1,6 @@
+<script>
+</script>
 <svelte:head>
-      <link rel="stylesheet" href="/css/global.css" />
     </svelte:head>
 <h1>Andy's Website</h1>
 
